@@ -1,0 +1,41 @@
+<!DOCtype html>
+<html>
+  <head>
+    <meta http-equiv="content type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="containers">
+      <div class="buttons">
+        <input type="text"  placeholder="0" id="userInput"/>
+        <input type="text" disabled id="userOutput"/>
+        <button onclick="erase()" type="button" class="btn ash one">C</button>
+        <button onclick="del()" type="button" class="btn ash"><i class="fa-solid fa-delete-left"></i></button>
+        <button onclick="press('/')" type="button" class="btn orange">÷</button>
+        <button onclick="press(7)" type="button" class="btn ">7</button>
+        <button onclick="press(8)" type="button" class="btn ">8</button>
+        <button onclick="press(9)" type="button" class="btn ">9</button>
+        <button onclick="press('*')" type="button" class="btn orange">x</button>
+        <button onclick="press(4)" type="button" class="btn ">4</button>
+        <button onclick="press(5)" type="button" class="btn ">5</button>
+        <button onclick="press(6)" type="button" class="btn ">6</button>
+        <button onclick="press('-')" type="button" class="btn orange">-</button>
+        <button onclick="press(1)" type="button" class="btn ">1</button>
+        <button onclick="press(2)" type="button" class="btn ">2</button>
+        <button onclick="press(3)" type="button" class="btn ">3</button>
+        <button onclick="press('+')" type="button" class="btn orange">+</button>
+        <button onclick="press(0)" type="button" class="btn  one">0</button>
+        <button onclick="press('.')" type="button" class="btn orange">.</button>
+        <button onclick="equal()" type="button" class="btn orange">=</button>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/845e4e838f.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
